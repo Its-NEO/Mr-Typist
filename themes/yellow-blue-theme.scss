@@ -1,0 +1,51 @@
+@use "../theme colors/yellow-blue";
+
+body {
+  background-color: yellow-blue.$background-color;
+}
+
+nav {
+  p {
+    color: yellow-blue.$secondary-color;
+  }
+  ul li {
+    border-color: yellow-blue.$text-color;
+  }
+}
+
+.main-body {
+  .text-container {
+    border-color: yellow-blue.$accent-color;
+
+    span#main-text {
+      color: yellow-blue.$text-color;
+    }
+  }
+
+  .write-container {
+    background-color: yellow-blue.$background-color;
+    color: yellow-blue.$text-color;
+
+    border-color: yellow-blue.$secondary-color;
+
+    &:focus {
+      border-color: yellow-blue.$secondary-color;
+    }
+  }
+}
+
+.wps {
+  color: yellow-blue.$accent-color;
+}
+
+.wrong_word {
+  color: yellow-blue.$wrong-color;
+}
+
+.right_word {
+  color: yellow-blue.$right-color;
+}
+
+.underscore {
+  color: yellow-blue.$secondary-color;
+}

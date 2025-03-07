@@ -1,0 +1,41 @@
+body {
+  background-color: #082340;
+}
+
+nav p {
+  color: #59E1FF;
+}
+nav ul li {
+  border-color: #F3F3F3;
+}
+
+.main-body .text-container {
+  border-color: #FCF201;
+}
+.main-body .text-container span#main-text {
+  color: #F3F3F3;
+}
+.main-body .write-container {
+  background-color: #082340;
+  color: #F3F3F3;
+  border-color: #59E1FF;
+}
+.main-body .write-container:focus {
+  border-color: #59E1FF;
+}
+
+.wps {
+  color: #FCF201;
+}
+
+.wrong_word {
+  color: #FF6962;
+}
+
+.right_word {
+  color: #77DD76;
+}
+
+.underscore {
+  color: #59E1FF;
+}/*# sourceMappingURL=yellow-blue-theme.css.map */

@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+footer, nav {
+  position: fixed;
+  height: 2.5rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-body .write-container:focus, .main-body .write-container, .main-body .text-container {
+  border: none;
+  width: 50%;
+  min-width: 30rem;
+  height: 2rem;
+  padding: 3rem 4rem;
+  border-radius: 10px;
+}
+
+nav {
+  font-size: 1.2em;
+}
+nav p {
+  font-family: Helvetica;
+  font-size: 1.6rem;
+  margin-left: 0.3em;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+  margin-right: 0.5em;
+}
+nav ul li {
+  border: 3px solid;
+  border-radius: 50%;
+  list-style-type: none;
+  padding: 0.5rem;
+}
+
+.main-body {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3rem;
+}
+.main-body .text-container {
+  border: 2px solid;
+}
+.main-body p {
+  font-family: Helvetica;
+  position: absolute;
+  font-size: 2rem;
+  width: 29%;
+  min-width: 18rem;
+  left: 46%;
+  text-align: left;
+  direction: ltr;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.main-body .write-container {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0.7rem;
+  width: 1rem;
+  min-width: 14rem;
+  border-radius: 0;
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 3px solid;
+  transition: padding 0.3s;
+}
+.main-body .write-container:focus {
+  padding-bottom: 0.7rem;
+  width: 1rem;
+  min-width: 14rem;
+  border-radius: 0;
+  text-align: center;
+  font-size: 2rem;
+  border-bottom: 3px solid;
+}
+.main-body .write-container:focus {
+  outline: none;
+}
+
+footer {
+  bottom: 0;
+}
+footer .settings {
+  margin-left: 0.5em;
+  padding: 0.3rem;
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+}
+footer .wps {
+  font-family: Helvetica;
+  position: absolute;
+  right: 1rem;
+  font-size: 2.3rem;
+  bottom: 1rem;
+}
+
+.theme1 {
+  background-color: #FF5353;
+}
+
+.theme2 {
+  background-color: #95FF8C;
+}
+
+.theme3 {
+  background-color: #FF8CFA;
+}
+
+.theme4 {
+  background-color: #082340;
+  border-color: #FCF201;
+}/*# sourceMappingURL=layout.css.map */

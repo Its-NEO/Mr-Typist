@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>typewriter</title>
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/yellow-blue-theme.css" />
+  </head>
+  <body>
+    <nav>
+      <p class="logo">MT</p>
+      <ul>
+        <li class="theme1"></li>
+        <li class="theme2"></li>
+        <li class="theme3"></li>
+        <li class="theme4"></li>
+      </ul>
+    </nav>
+    <div class="main-body">
+      <div class="text-container">
+        <p class="text" id="text">
+          <span id="underscore" class="underscore">_</span><span id="main-text"></span>
+        </p>
+      </div>
+      <input placeholder="type here" type="text" name="write" id="write" class="write-container"/>
+    </div>
+    <footer>
+      <!-- <div class="settings">
+        <select name="difficulty" id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <select name="no-of-words" id="no-of-words">
+          <option value="100">100</option>
+          <option value="200">200</option>
+          <option value="300">300</option>
+        </select>
+      </div> -->
+      <p class="wps" id="wps">0 wpm</p>
+      <p class="accuracy" id="accuracy">0%</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
